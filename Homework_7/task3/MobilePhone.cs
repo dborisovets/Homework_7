@@ -5,11 +5,11 @@ namespace Homework_7.task3
 {
     public class MobilePhone : Technique, IPhotable
     {
-        private double numberOfPixelsInCamera;
+        private double _numberOfPixelsInCamera;
 
         public MobilePhone(double numberOfPixelsInCamera, string? modelName, decimal price)
         {
-            this.numberOfPixelsInCamera = numberOfPixelsInCamera;
+            this._numberOfPixelsInCamera = numberOfPixelsInCamera;
             this.modelName = modelName;
             this.price = price;
         }
@@ -21,7 +21,7 @@ namespace Homework_7.task3
 
         public override string Description()
         {
-            return $"Price: {price}, model:{modelName}, number of pixels in camera: {numberOfPixelsInCamera}";
+            return $"Price: {price}, model:{modelName}, number of pixels in camera: {_numberOfPixelsInCamera}";
         }
     }
 }
