@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_7.task
+namespace Homework_7.task3
 {
-    public class TransportCompany
+    interface IPhotable
     {
-        public static void Main(string[] args)
-        {
-
-        }
+        void TakePhoto();
     }
 }

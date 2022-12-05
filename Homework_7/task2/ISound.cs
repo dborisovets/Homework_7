@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_7.task
+namespace Homework_7.task2
 {
-    public class TransportCompany
+    interface ISound
     {
-        public static void Main(string[] args)
-        {
-
-        }
+        void Sound();
     }
+
 }
