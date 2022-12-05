@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_7.task1
+namespace Homework_7.task
 {
     public class TransportCompany
     {
